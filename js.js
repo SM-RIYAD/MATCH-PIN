@@ -1,8 +1,8 @@
-var p, q;
-var x = "";
+let p, q;
+let x = "";
 
-var count_string = document.getElementById("count").innerText;
-var count_num = parseInt(count_string)
+let count_string = document.getElementById("count").innerText;
+let count_num = parseInt(count_string)
 
 document.getElementById("pin_generate").addEventListener("click", function() {
     // p = Math.random() * 10000;
